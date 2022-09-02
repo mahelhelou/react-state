@@ -1,11 +1,13 @@
 import './App.css'
-// import StateOne from './components/StateOne'
+import StateOne from './components/StateOne'
 import StateTwo from './components/StateTwo'
+import Login from './components/ContextSimple/Login'
 
 function App() {
 	return (
-		// <StateOne />
-		<StateTwo />
+		<StateOne />
+		// <StateTwo />
+		// <Login />
 	)
 }
 
